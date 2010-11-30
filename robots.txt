@@ -1,0 +1,8 @@
+User-agent: *
+Disallow /docs/
+Disallow /ebay/
+Disallow /family/
+Disallow /files/
+Disallow /friends/
+Disallow /rent/
+Disallow /tests/
