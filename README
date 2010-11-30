@@ -1,0 +1,8 @@
+* Andrew Gioia
+* andrewgioia.com
+
+Fifth iteration of the homepage, testing out Git in the process.
+
+The core site is based in large part on the HTML5 Boilerplate package with modifications, and
+very little PHP to handle a few other things. This site is primarily a portfolio, with the intent
+to demo some css and javascript experiments.
