@@ -199,7 +199,7 @@ header span {
 	}
 
 header span:hover, .navactive {
-	background: #333; /* #456A9F; #3A6994; */
+	background: #222; /* #456A9F; #3A6994; */
 	border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;
 	}
 	
@@ -215,7 +215,7 @@ header a {
 	}
 	
 	header a:hover {
-		background: #333; /* #456A9F; */
+		background: #222; /* #456A9F; */
 		border: none;
 		}
 	
@@ -244,7 +244,7 @@ header a {
 		}
 
 #nav {
-	background: #333;
+	background: #222;
 	color: #fff;
 	list-style-type: none;
 	margin-top: -2px;

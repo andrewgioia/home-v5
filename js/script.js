@@ -1,5 +1,5 @@
 /**
- * General
+ * Ready
  */
 $(document).ready(function() { 
 	$("#nav-button").bind("click", nav_open);
@@ -9,10 +9,10 @@ $(document).ready(function() {
 /**
  * Navigation drop down
  */
-var nav_timeout		= 500;
-var nav_closetimer 	= 0;
-var nav_ddmenuitem	= 0;
-var nav_buttonlink  = 0;
+var nav_timeout = 500;
+var nav_closetimer = 0;
+var nav_ddmenuitem = 0;
+var nav_buttonlink = 0;
 
 function nav_open() {
 	nav_canceltimer();
@@ -42,11 +42,12 @@ function nav_canceltimer() {
 /**
  * Hijack the in-page article scrolling
  */
-$("sup[id^='a-'] a").click(function() {
-	var i = $(this).parent().attr("id").substr(2,1);	// ID of the footnote
-	var p = $("#fn-"+i).offset();						// Position of the footnote we're going to
-	var n = p.top - 90;									// Offset position (to account for header)
+$("a[rel='footnote']").click(function() {
+	var h = $(this).attr("href");
+	var i = h.substr(h.indexOf("#")+1);
+	var p = $("#"+i).offset();
+	var n = p.top - 90;
 	$(window).scrollTop(n);
+	// color fade indicator $("#"+i+" a").animate( { backgroundColor: "#EFE4C2" }, 1000).delay(3000).animate( { backgroundColor: "none" }, 1000);
 	return false;
 });
-
