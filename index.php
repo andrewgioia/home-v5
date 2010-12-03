@@ -9,11 +9,11 @@
 			<ul class="list">
 				<li>
 					<span><a href="writing/fcc">FCC Jurisdction Over ISPs in Protocol-Specific Bandwidth Throttling</a></span>
-					<span>15 <em class="smallcap">Mich. Telecomm. Tech. L. Rev.</em> 517 (Sping 2009)</span>
+					<span>15 <em class="smallcap">Mich. Telecomm. Tech. L. Rev.</em> 517 (Sping 2009) (supporting the FCC's limited Title I jurisdiction over Comcast's anti-competitive efforts at targetting BitTorrent, based on the congressional Internet Policies outlined in &sect; 230 of the 1996 Telecommunications Act).</span>
 				</li>
 				<li>
 					<span><a href="writing/ehr">HIT or Miss: Getting Electronic Health Records Right the First Time (<em>Unpublished</em>)</a></span>
-					<span>Overview of the issues surrounding electronic health records and reccommendations for nation-wide implementation.</span>
+					<span>Overview of the issues surrounding electronic health records and a reccommendations for nation-wide implementation of an effective, open, and secure EHR system.</span>
 				</li>
 				<li class="hidden">
 					<span><a href="writing/stories">Collected short stories</a></span>

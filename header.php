@@ -37,11 +37,11 @@
 				<a href="javascript:void(0);" class="page round-l">Work</a><a href="javascript:void(0);" id="nav-button" class="drop round-r"><small>&#9660;</small></a>
 			</span>
 			<ul id="nav" class="round-3 hidden">
-				<li><a href="blog">Live</a></li>
-				<li><a href="blog">Work</a></li>
-				<li><a href="contact">Contact</a></li>
-				<li><a href="background">Background</a></li>
-				<li><a href="#">Something longer</a></li>
+				<li><a href="blog" class="round-3">Live</a></li>
+				<li><a href="blog" class="round-3">Work</a></li>
+				<li><a href="contact" class="round-3">Contact</a></li>
+				<li><a href="background" class="round-3">Background</a></li>
+				<li><a href="#" class="round-3">Something longer</a></li>
 			</ul>
 		</div>
 	</header>
