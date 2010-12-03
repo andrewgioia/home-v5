@@ -323,6 +323,7 @@ header a {
 		color: #444;
 		font-weight: normal;
 		padding: 0 0 15px 60px;
+		text-transform: uppercase;
 		}
 
 	#article p {
@@ -344,6 +345,10 @@ header a {
 		font-size: 15px;
 		line-height: 1.6em;
 		padding-right: 60px;
+		}
+	
+	#article .divide {
+		padding-top: 15px;
 		}
 
 sup {
